@@ -1,0 +1,13 @@
+[CustomSyntax]
+Name=MME
+UseRegex=0
+Underline=
+Red=down,INACTIVE,false,critical,error,STOPPED
+Green=up,unblocked,true,ACTIVE,ESTABLISHED,connected,BRM_BACKUP_COMPLETE,running,OK,successfully
+Yellow=NodeId,blocked,major,NULL
+Blue=gsh,ls,tail,cd,su,date,listSCs,hw_status,cat,echo,sctp_status,pdc_kpi.pl,pdc_counters.pl,pdc_status.sh,getPatchStatus,gsa
+Magenta=[^0-9](localhost|([1-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-4])\.[0-9]+\.[0-9]+\.[0-9]+)[^0-9]
+Cyan=TCGNFV01-MME01,minor
+Blinking=
+CaseSensitive=0
+
